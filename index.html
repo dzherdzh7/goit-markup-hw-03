@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- Google Fonts підключення -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,33 +18,35 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo">
-          Web
-          <span class="logo-studio">Studio</span>
-        </a>
-        <ul class="nav-list">
-          <li><a href="./index.html" class="nav-link">Studio</a></li>
-          <li><a href="" class="nav-link">Portfolio</a></li>
-          <li><a href="" class="nav-link">Contacts</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <a href="./index.html" class="logo">
+            Web
+            <span class="logo-studio">Studio</span>
+          </a>
+          <ul class="nav-list">
+            <li><a href="./index.html" class="nav-link">Studio</a></li>
+            <li><a href="" class="nav-link">Portfolio</a></li>
+            <li><a href="" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
 
-      <address class="header-address">
-        <ul class="address-list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="address-link">
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="address-link">
-              +11 (000) 111-11-11
-            </a>
-          </li>
-        </ul>
-      </address>
+        <address class="header-address">
+          <ul class="address-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="address-link">
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="address-link">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Тут Основний Контент -->
@@ -139,27 +145,47 @@
             <p class="portfolio-text">App</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/cashless-payment.jpg" alt="cashless-payment" width="360" />
+            <img
+              src="./images/cashless-payment.jpg"
+              alt="cashless-payment"
+              width="360"
+            />
             <h3 class="portfolio-subtitle">Cashless Payment</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/meditation-app.jpg" alt="Meditation App" width="360" />
+            <img
+              src="./images/meditation-app.jpg"
+              alt="Meditation App"
+              width="360"
+            />
             <h3 class="portfolio-subtitle">Meditation App</h3>
             <p class="portfolio-text">App</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/taxi-service.jpg" alt="Taxi Service" width="360" />
+            <img
+              src="./images/taxi-service.jpg"
+              alt="Taxi Service"
+              width="360"
+            />
             <h3 class="portfolio-subtitle">Taxi Service</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/screen-illustrations.jpg" alt="Screen Illustration" width="360" />
+            <img
+              src="./images/screen-illustrations.jpg"
+              alt="Screen Illustration"
+              width="360"
+            />
             <h3 class="portfolio-subtitle">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/online-courses.jpg" alt="Online Courses" width="360" />
+            <img
+              src="./images/online-courses.jpg"
+              alt="Online Courses"
+              width="360"
+            />
             <h3 class="portfolio-subtitle">Online Courses</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
