@@ -104,11 +104,18 @@ img {
   gap: 40px;
 }
 
-.logo-footer {
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
   color: #4d5ae5;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
-.logo-studio-footer {
+.footer-logo-studio {
   color: #f4f4fd;
 }
 
@@ -234,11 +241,14 @@ img {
 .footer {
   background-color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 100px 0;
 }
 
 .footer-text {
   color: #f4f4fd;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   max-width: 264px;
   margin-top: 16px;
 }
