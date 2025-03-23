@@ -168,6 +168,9 @@ img {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
+.features-item:first-child {
+  width: calc((100% - 72px) / 4);
+}
 
 
 .feature-title {
