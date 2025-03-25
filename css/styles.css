@@ -103,6 +103,8 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+  margin: 0;
+  align-items: center;
 }
 
 .footer-logo {
@@ -122,12 +124,12 @@ img {
 
 .nav-link {
   display: inline-block;
+  padding: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -229,8 +231,8 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .team-role {
@@ -293,8 +295,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .portfolio-text {
