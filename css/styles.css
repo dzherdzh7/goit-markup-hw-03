@@ -79,6 +79,7 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .container {
   width: 1158px;
@@ -215,8 +216,10 @@ img {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-
   overflow: hidden;
+}
+.team-info {
+  padding: 32px 0;
 }
 
 .team-name {
