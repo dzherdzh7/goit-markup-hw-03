@@ -79,7 +79,6 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  
 }
 .container {
   width: 1158px;
@@ -255,8 +254,12 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
   padding-top: 16px;
+  margin-top: 16px;
 }
 
+.footer .container {
+  padding-left: 15px;
+}
 /* Portfolio Section */
 .portfolio {
   padding-top: 120px;
