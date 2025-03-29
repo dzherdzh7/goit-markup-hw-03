@@ -253,8 +253,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-top: 16px;
-  margin-top: 16px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .footer .container {
